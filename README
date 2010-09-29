@@ -1,16 +1,43 @@
 SimpleTwitterClient
 
+ビルド方法：
+1. 'CHANGEME:'をgrepします
+2. 見つかった箇所(consumer key, consumer secret, application name)を変更します
+3. Microsoft Visual Studioを用いてコンパイルします(Microsoft Visual Studio 2010でテストしています)
+
+OAuth認証方法
+1. '--config'オプションをつけてExeを実行すると設定ダイアログが開きます
+例：sstwitter.exe --config
+
+つぶやく方法:
+※先にOAuth認証を行ってください
+1. つぶやきたい文字列を引数としてExeを実行します
+例：sstwitter.exe "ほげほげ ぴよぴよ"
+
+使用ライブラリ:
+oauth(Google Code)
+http://code.google.com/p/oauth/ (Apache License 2.0)
+
+適用ライセンス:
+MIT
+
+----
+
+SimpleTwitterClient
+
 How to build:
 1. Grep 'CHANGEME:'
 2. Please change to your consumer key, consumer secret and application name in Config.cs and Config.Designer.cs
 3. Build this project with Microsoft Visual Studio(recommended: Microsoft Visual Studio 2010)
 
 How to OAuth authentication:
-1. run the binary with '--config' option.
+1. run the binary with '--config' option, open the authentication dialog.
+ex. sstwitter.exe --config
 
 How to Tweet:
 (require OAuth authentication was successfully)
 1. run the binary with string that you wanna the tweet message.
+ex. sstwitter.exe "hogehoge piyopiyo"
 
 Used library:
 oauth(Google Code)
