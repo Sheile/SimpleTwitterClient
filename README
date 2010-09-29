@@ -1,0 +1,19 @@
+SimpleTwitterClient
+
+How to build:
+1. Grep 'CHANGEME:'
+2. Please change to your consumer key, consumer secret and application name in Config.cs and Config.Designer.cs
+3. Build this project with Microsoft Visual Studio(recommended: Microsoft Visual Studio 2010)
+
+How to OAuth authentication:
+1. run the binary with '--config' option.
+
+How to Tweet:
+(require OAuth authentication was successfully)
+1. run the binary with string that you wanna the tweet message.
+
+Used library:
+oauth(Google Code)
+http://code.google.com/p/oauth/ (Apache License 2.0)
+
+License: MIT
