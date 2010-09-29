@@ -1,24 +1,24 @@
 SimpleTwitterClient
 
-ƒrƒ‹ƒh•û–@F
-1. 'CHANGEME:'‚ðgrep‚µ‚Ü‚·
-2. Œ©‚Â‚©‚Á‚½‰ÓŠ(consumer key, consumer secret, application name)‚ð•ÏX‚µ‚Ü‚·
-3. Microsoft Visual Studio‚ð—p‚¢‚ÄƒRƒ“ƒpƒCƒ‹‚µ‚Ü‚·(Microsoft Visual Studio 2010‚ÅƒeƒXƒg‚µ‚Ä‚¢‚Ü‚·)
+ãƒ“ãƒ«ãƒ‰æ–¹æ³•ï¼š
+1. 'CHANGEME:'ã‚’grepã—ã¾ã™
+2. è¦‹ã¤ã‹ã£ãŸç®‡æ‰€(consumer key, consumer secret, application name)ã‚’å¤‰æ›´ã—ã¾ã™
+3. Microsoft Visual Studioã‚’ç”¨ã„ã¦ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ã—ã¾ã™(Microsoft Visual Studio 2010ã§ãƒ†ã‚¹ãƒˆã—ã¦ã„ã¾ã™)
 
-OAuth”FØ•û–@
-1. '--config'ƒIƒvƒVƒ‡ƒ“‚ð‚Â‚¯‚ÄExe‚ðŽÀs‚·‚é‚ÆÝ’èƒ_ƒCƒAƒƒO‚ªŠJ‚«‚Ü‚·
-—áFsstwitter.exe --config
+OAuthèªè¨¼æ–¹æ³•
+1. '--config'ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’ã¤ã‘ã¦Exeã‚’å®Ÿè¡Œã™ã‚‹ã¨è¨­å®šãƒ€ã‚¤ã‚¢ãƒ­ã‚°ãŒé–‹ãã¾ã™
+ä¾‹ï¼šsstwitter.exe --config
 
-‚Â‚Ô‚â‚­•û–@:
-¦æ‚ÉOAuth”FØ‚ðs‚Á‚Ä‚­‚¾‚³‚¢
-1. ‚Â‚Ô‚â‚«‚½‚¢•¶Žš—ñ‚ðˆø”‚Æ‚µ‚ÄExe‚ðŽÀs‚µ‚Ü‚·
-—áFsstwitter.exe "‚Ù‚°‚Ù‚° ‚Ò‚æ‚Ò‚æ"
+ã¤ã¶ã‚„ãæ–¹æ³•:
+â€»å…ˆã«OAuthèªè¨¼ã‚’è¡Œã£ã¦ãã ã•ã„
+1. ã¤ã¶ã‚„ããŸã„æ–‡å­—åˆ—ã‚’å¼•æ•°ã¨ã—ã¦Exeã‚’å®Ÿè¡Œã—ã¾ã™
+ä¾‹ï¼šsstwitter.exe "ã»ã’ã»ã’ ã´ã‚ˆã´ã‚ˆ"
 
-Žg—pƒ‰ƒCƒuƒ‰ƒŠ:
+ä½¿ç”¨ãƒ©ã‚¤ãƒ–ãƒ©ãƒª:
 oauth(Google Code)
 http://code.google.com/p/oauth/ (Apache License 2.0)
 
-“K—pƒ‰ƒCƒZƒ“ƒX:
+é©ç”¨ãƒ©ã‚¤ã‚»ãƒ³ã‚¹:
 MIT
 
 ----
