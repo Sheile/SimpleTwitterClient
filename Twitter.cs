@@ -112,7 +112,7 @@ namespace TwitterClient
         {
             string url;
             string queryString;
-            Uri requestUri = new Uri("http://api.twitter.com/1/statuses/home_timeline.xml?count=" + count);
+            Uri requestUri = new Uri("https://api.twitter.com/1.1/statuses/home_timeline.json?count=" + count);
             string signature = oauthbase.GenerateSignature(requestUri, token.consumerKey, token.consumerSecret, token.oAuthToken, token.oAuthTokenSecret,
                 "GET", oauthbase.GenerateTimeStamp(), oauthbase.GenerateNonce(), out url, out queryString);
             queryString += "&oauth_signature=" + HttpUtility.UrlEncode(signature);
@@ -123,7 +123,7 @@ namespace TwitterClient
         {
             string url;
             string queryString;
-            Uri requestUri = new Uri("http://api.twitter.com/1/statuses/update.xml?status=" + oauthbase.UrlEncode(tweet, Encoding.UTF8));
+            Uri requestUri = new Uri("https://api.twitter.com/1.1/statuses/update.json?status=" + oauthbase.UrlEncode(tweet, Encoding.UTF8));
             string signature = oauthbase.GenerateSignature(requestUri, token.consumerKey, token.consumerSecret, token.oAuthToken, token.oAuthTokenSecret,
                 "POST", oauthbase.GenerateTimeStamp(), oauthbase.GenerateNonce(), out url, out queryString);
             queryString += "&oauth_signature=" + HttpUtility.UrlEncode(signature);
