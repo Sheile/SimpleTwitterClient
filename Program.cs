@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Windows.Forms;
 
 namespace TwitterClient
@@ -12,6 +13,7 @@ namespace TwitterClient
         [STAThread]
         static int Main(string[] args)
         {
+            ServicePointManager.SecurityProtocol = SecurityProtocolTypeExtensions.Tls11 | SecurityProtocolTypeExtensions.Tls12;
             if (args.Length == 0) return 1;
             if (args[0] == "--config")
             {

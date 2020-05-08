@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TwitterClient</RootNamespace>
     <AssemblyName>sstwitter</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -51,6 +51,8 @@
     <Compile Include="OAuthBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityProtocolTypeExtensions.cs" />
+    <Compile Include="SslProtocolsExtensions.cs" />
     <Compile Include="Twitter.cs" />
     <Compile Include="TwitterToken.cs" />
     <Compile Include="WebClient.cs" />
