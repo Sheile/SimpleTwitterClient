@@ -1,0 +1,4 @@
+# Generated automatically
+*.csproj.user
+bin
+obj
